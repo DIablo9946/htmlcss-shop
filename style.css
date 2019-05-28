@@ -88,3 +88,14 @@
   right: -205px;
 
 }
+
+/* Devo creare la funzione hover sopra le immagini dei prodotti */
+
+/* IMPORTANTE: Devo chiedere come mai non reisco a diverenziare l'immagine del cuore dal div="container" senza aggiuntive linee del codice*/
+/* Faccio qualche test con l'immagine del cuore */
+#heart {
+   display: inline-block;
+   position: relative;
+   top: 700px;
+
+ }
