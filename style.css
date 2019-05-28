@@ -97,5 +97,18 @@
    display: inline-block;
    position: relative;
    top: 700px;
+   width: 45px;
 
+ }
+
+.headphones {
+
+}
+
+ .headphones:hover #heart {
+   display: inline;
+        position: relative;
+        top: 0;
+        left: 0;
+        z-index: 99;
  }
