@@ -1,13 +1,31 @@
 /* Creo i primi blochhi per vedere se tutte le funzionalità sono apposto */
 
+* {
+  margin: 0;
+  padding: 0;
+
+}
+
 #container {
-  background-color: lightgreen;
+  background-color: green;
+  width: 800px;
+  height: 800px;
+  position: absolute;
 }
 
-.upper {
-  background-color: lightblue;
+#upper {
+  background-color: blue;
+  width: 760px;
+  height: 360px;
+  padding: 5px;
+  margin: 10px 10px;
+
 }
 
-.bottomside {
-  background-color: lightyellow;
+#downside {
+  background-color: yellow;
+  width: 760px;
+  height: 360px;
+  padding: 5px;
+  margin: 10px 10px;
 }
