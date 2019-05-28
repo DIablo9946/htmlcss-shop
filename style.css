@@ -1,1 +1,13 @@
 /* Creo i primi blochhi per vedere se tutte le funzionalità sono apposto */
+
+#container {
+  background-color: lightgreen;
+}
+
+.upper {
+  background-color: lightblue;
+}
+
+.bottomside {
+  background-color: lightyellow;
+}
