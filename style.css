@@ -1,20 +1,24 @@
 /* Creo i primi blochhi per vedere se tutte le funzionalità sono apposto */
-
+/* Azzero le impostazioni predefinite del browser */
 * {
   margin: 0;
   padding: 0;
 
 }
 
+/* Definisco il contenitore principale */
+
 #container {
-  background-color: green;
+
   width: 800px;
   height: 800px;
   position: absolute;
 }
 
+/* Definisco la parte superiore */
+
 #upper {
-  background-color: blue;
+
   width: 760px;
   height: 360px;
   padding: 5px;
@@ -22,9 +26,11 @@
 
 
 }
+
+/* Definisco la parte inferiore */
 
 #downside {
-  background-color: yellow;
+
   width: 760px;
   height: 360px;
   padding: 5px;
@@ -32,24 +38,33 @@
 
 }
 
+/* Successivamente metto tutti gli elementi in maniera lineare e aggiusto le grandezze */
+
 .left {
-  background-color: white;
+
   width: 32%;
   height: 95%;
   display: inline-block;
-  
+
 }
 
 .central {
-  background-color: black;
+
   width: 32%;
   height: 95%;
   display: inline-block;
 }
 
 .right {
-  background-color: pink;
+
   width: 32%;
+  height: 95%;
+  display: inline-block;
+}
+
+.left img, .right img, .central img {
+
+  width: 100%;
   height: 95%;
   display: inline-block;
 }
