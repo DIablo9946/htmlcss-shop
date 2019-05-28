@@ -77,3 +77,14 @@
 .higherprice {
   background-color: green;
 }
+
+/* Aggiusto la grandezza e la posizione dei price tags */
+
+.higherprice, .lowerprice {
+  width: 38px;
+  text-align: center;
+  position: relative;
+  top: -301px;
+  right: -205px;
+
+}
