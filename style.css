@@ -12,7 +12,7 @@
 
   width: 800px;
   height: 800px;
-  position: absolute;
+
 }
 
 /* Definisco la parte superiore */
@@ -95,21 +95,16 @@
 /* Faccio qualche test con l'immagine del cuore */
 #heart {
    display: none;
-   position: relative;
-   top: 700px;
+   position: absolute;
+   top: 268px;
+   right: 1270px;
    width: 45px;
+   height: 45px;
    z-index: 99;
+   align-items: center;
 
  }
 
-.headphones {
-
-}
-
- .ipad:hover #heart, .headphones:hover #heart, .iphone:hover #heart {
+ .right:hover #heart {
    display: inline-block;
-        position: relative;
-        top: 0;
-        left: 0;
-
  }
