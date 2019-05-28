@@ -93,18 +93,21 @@
 
 /* IMPORTANTE: Devo chiedere come mai non reisco a diverenziare l'immagine del cuore dal div="container" senza aggiuntive linee del codice*/
 /* Faccio qualche test con l'immagine del cuore */
-#heart {
+#heart1, #heart2, #heart3, #heart4, #heart5, #heart6 {
    display: none;
    position: absolute;
-   top: 268px;
-   right: 1270px;
-   width: 45px;
-   height: 45px;
+   height: 4%;
+   width: 2%;
    z-index: 99;
    align-items: center;
 
  }
 
- .right:hover #heart {
+ .left:hover #heart1,
+ .central:hover #heart2,
+ .right:hover #heart3,
+ .left:hover #heart4,
+ .central:hover #heart5,
+ .right:hover #heart6 {
    display: inline-block;
  }
