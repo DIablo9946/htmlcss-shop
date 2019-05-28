@@ -20,6 +20,7 @@
   padding: 5px;
   margin: 10px 10px;
 
+
 }
 
 #downside {
@@ -28,4 +29,27 @@
   height: 360px;
   padding: 5px;
   margin: 10px 10px;
+
+}
+
+.left {
+  background-color: white;
+  width: 32%;
+  height: 95%;
+  display: inline-block;
+  
+}
+
+.central {
+  background-color: black;
+  width: 32%;
+  height: 95%;
+  display: inline-block;
+}
+
+.right {
+  background-color: pink;
+  width: 32%;
+  height: 95%;
+  display: inline-block;
 }
