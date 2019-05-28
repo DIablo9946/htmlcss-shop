@@ -94,10 +94,11 @@
 /* IMPORTANTE: Devo chiedere come mai non reisco a diverenziare l'immagine del cuore dal div="container" senza aggiuntive linee del codice*/
 /* Faccio qualche test con l'immagine del cuore */
 #heart {
-   display: inline-block;
+   display: none;
    position: relative;
    top: 700px;
    width: 45px;
+   z-index: 99;
 
  }
 
@@ -105,10 +106,10 @@
 
 }
 
- .headphones:hover #heart {
-   display: inline;
+ .ipad:hover #heart, .headphones:hover #heart, .iphone:hover #heart {
+   display: inline-block;
         position: relative;
         top: 0;
         left: 0;
-        z-index: 99;
+
  }
