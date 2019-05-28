@@ -20,10 +20,9 @@
 #upper {
 
   width: 760px;
-  height: 360px;
+  height: 330px;
   padding: 5px;
   margin: 10px 10px;
-
 
 }
 
@@ -32,7 +31,7 @@
 #downside {
 
   width: 760px;
-  height: 360px;
+  height: 330px;
   padding: 5px;
   margin: 10px 10px;
 
@@ -63,8 +62,18 @@
 }
 
 .left img, .right img, .central img {
-
+  background-color: lightgrey;
   width: 100%;
   height: 95%;
   display: inline-block;
+}
+
+/* Creo due div per mettere gli sconti dei prodotti */
+
+.lowerprice {
+  background-color: red;
+}
+
+.higherprice {
+  background-color: green;
 }
