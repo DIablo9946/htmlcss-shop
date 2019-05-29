@@ -1,116 +1,102 @@
-/* Creo i primi blochhi per vedere se tutte le funzionalità sono apposto */
-/* Azzero le impostazioni predefinite del browser */
 * {
-  margin: 0;
-  padding: 0;
-
+    margin: 5px 0px;
+    padding: 0px;
 }
-
-/* Definisco il contenitore principale */
-
-#container {
-
-  width: 800px;
-  height: 800px;
-
-}
-
-/* Definisco la parte superiore */
 
 #upper {
+    width: 830px;
+    height: 300px;
+}
 
-  width: 760px;
-  height: 330px;
-  padding: 5px;
-  margin: 10px 10px -20px 10px;
+#bottom {
+    width: 830px;
+    height: 300px;
+    margin: 15px 0px 0px 0px;
+}
+
+.product {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+   width: 250px;
+   height: 300px;
+   margin: 0px 5px;
 
 }
 
-/* Definisco la parte inferiore */
 
-#downside {
-
-  width: 760px;
-  height: 330px;
-  padding: 5px;
-  margin: 10px 10px -20px 10px;
-
-}
-
-/* Successivamente metto tutti gli elementi in maniera lineare e aggiusto le grandezze */
-
-.left {
-
-  width: 32%;
-  height: 95%;
-  display: inline-block;
-
-}
-
-.central {
-
-  width: 32%;
-  height: 95%;
-  display: inline-block;
-}
-
-.right {
-
-  width: 32%;
-  height: 95%;
-  display: inline-block;
-}
-
-.left img, .right img, .central img {
+.ipad {
+    background: url(img/ipad.jpg);
+    background-size: contain;
+  /*  background-size: 250px 200px; */
+  background-position: center;
   background-color: lightgrey;
-  width: 100%;
-  height: 95%;
-  display: inline-block;
-}
-
-/* Creo due div per mettere gli sconti dei prodotti */
-
-.lowerprice {
-  background-color: red;
-}
-
-.higherprice {
-  background-color: green;
-}
-
-/* Aggiusto la grandezza e la posizione dei price tags */
-
-.higherprice, .lowerprice {
-  width: 38px;
-  text-align: center;
-  position: relative;
-  top: -301px;
-  right: -205px;
+  align-content: center;
 
 }
 
-/* Devo creare la funzione hover sopra le immagini dei prodotti */
-
-/* IMPORTANTE: Devo chiedere come mai non reisco a diverenziare l'immagine del cuore dal div="container" senza aggiuntive linee del codice*/
-/* Faccio qualche test con l'immagine del cuore */
-#heart1, #heart2, #heart3, #heart4, #heart5, #heart6 {
-   display: none;
-   position: absolute;
-   height: 25px;
-   width: 22px;
-   z-index: 99;
-   align-items: center;
+.iphone {
+    background: url(img/iphone.png);
+    background-size: contain;
+  /*  background-size: 250px 200px; */
+  background-position: center;
+  background-color: lightgrey;
+  align-content: center;
 
 
- }
+}
 
- .left:hover #heart1,
- .central:hover #heart2,
- .right:hover #heart3,
- .left:hover #heart4,
- .central:hover #heart5,
- .right:hover #heart6 {
-   display:inline-block;
-   margin-left: 110px;
+.headphones {
+    background: url(img/headphones.png);
+    background-size: contain;
+    background-size: 250px 300px;
+  background-position: center;
+  background-color: lightgrey;
+  align-content: center;
+}
 
- }
+.low {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: lightgreen;
+}
+
+.high {
+    position: absolute;
+    top: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(231, 94, 94);
+}
+
+.high, .low {
+    margin-top: 0px;
+    box-sizing: content-box;
+    z-index: 1;
+
+}
+
+img {
+    align-content: center;
+    position: absolute;
+    bottom: 0px;
+    left: 45%;
+    display: none;
+    width: 30px;
+    height: 30px;
+    z-index: 99;
+
+}
+
+.product:hover img {
+    display: inline-block;
+
+}
+
+
+.product:hover  {
+    filter: blur(4px);
+
+}
