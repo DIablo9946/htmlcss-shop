@@ -39,6 +39,7 @@
     background: url(img/iphone.png);
     background-size: contain;
   /*  background-size: 250px 200px; */
+  /* Nel caso volessi fare hover alla sola immagine dovrei eliminare il background img da qui e spostarla nell'altra div */
   background-position: center;
   background-color: lightgrey;
   align-content: center;
@@ -92,11 +93,17 @@ img {
 
 .product:hover img {
     display: inline-block;
-
+    filter: none;
 }
-
-
-.product:hover  {
+/* Per fare hover alla sola immagine
+.product .background{
+  index
+  posizione
+  e dimension
+  background immagine
+} */
+/* Obsoleto
+.product:hover  .background{
     filter: blur(4px);
 
-}
+} */
